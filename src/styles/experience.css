@@ -1,0 +1,244 @@
+.exp{
+    font-size: 50px;
+    text-align: center;
+}
+
+input{
+    padding: 10px 20px;
+    color: white;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    background-color: rgb(0, 50, 100);
+    /* border: 2px solid orange; */
+}
+/*this below is for the submit button when editing. CHANGE the NAME and DELETE this comment when you do so*/
+.seven{
+    text-align: center;
+    border: none;
+    outline: none;
+    
+    button{
+        border: none;
+        outline: none;
+        font-size: 20px;
+        color: rgb(0, 50, 100);
+        padding: 10px 15px;
+        border-radius: 20px;
+        text-align: center;
+        background-color: white;
+        cursor: pointer;
+        font-weight: bold;
+    }
+    button:hover{
+        /* background-color: rgba(0, 0, 0, 0.3); */
+        color: white;
+        background-color: rgb(0, 50, 100);
+    }
+}
+.project-element{
+    /* border: 2px solid turquoise; */
+    max-width: 620px;
+    border-bottom: 2px solid rgb(200, 200, 200);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 50px;
+}
+.company-tags{
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+    /* border: 2px solid blue; */
+    width: 620px;
+    /* height: 80px; */
+
+    .company-tag1{
+        display: flex;
+        align-items: start;
+        margin: 0;
+        margin-bottom: 5px;
+
+        .cName{
+            font-size: 20px;
+            display: inline-block;
+            width: 150px;
+            height: 50px;
+            /* border: 2px solid coral; */
+        }
+        .cPosition{
+            font-size: 17px;
+            font-weight: normal;
+            display: inline-block;
+            width: 150px;
+            height: 50px;
+            padding-left: 10px;
+            /* border: 2px solid coral; */
+        }
+
+    }
+    .company-tag2{
+        margin: 0;
+        margin-bottom: 5px;
+        .cFrom, .cTo{
+            font-size: 14px;
+            font-style: italic;
+            /* border: 2px solid coral; */
+        }
+    }
+}
+.job-responsibilities{
+    display: flex;
+    /* border: 2px solid brown; */
+    flex-direction: column;
+    align-items: start;
+
+
+    .responsibilities{
+        font-size: 15px;
+        color: rgb(100, 160, 210);
+        /* border: 2px solid saddlebrown; */
+        margin: 0;
+        margin-bottom: 3px;
+    }
+    article{
+        max-width: 620px;
+        /* border: 2px solid gold; */
+        /* word-spacing: 2px; */
+        /* letter-spacing: 1px; */
+        line-height: 2;
+        overflow: auto;
+    }
+}
+.three-and-half{
+    display: flex;
+    align-items: center;
+    gap: 2px;
+    color: rgb(100, 160, 210);
+    cursor: pointer;
+}
+textarea{
+    height: 200px;
+    font-size: 17px;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: rgb(100, 160, 210);
+    overflow: auto;
+}
+.add-experience{
+    margin-bottom: 200px;
+    margin-top: 100px;
+    
+
+    button{
+        border: none;
+        outline: none;
+        font-size: 20px;
+        background-color: white;
+        color: rgb(100, 160, 210);
+        font-weight: bold;
+        width: 200px;
+        text-align: center;
+        padding: 10px;
+        border-radius: 20px;
+        cursor: pointer;
+
+
+        .FA-icon{
+            font-size: 30px;
+        }
+    }
+    button:hover{
+        color: white;
+        background: linear-gradient(to left, rgb(100, 160, 210), rgb(32, 34, 141));
+    }
+}
+.outer-set{
+    /* border: 2px solid green; */
+    display: flex;
+    flex-direction: column;
+}
+.adding-container{
+    border: 2px solid white;
+    color: black;
+    background-color: rgb(103, 190, 146);
+    display: flex;
+    width: 600px;
+    border-radius: 20px;
+    padding: 10px 0 10px 0;
+    position: absolute;
+    left: 550px;
+    top: 550px;
+    z-index: 1000;
+
+
+    .short-answers{
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+        justify-content: center;
+        align-items: center;
+
+        span{
+            text-align: left;
+            /* border: 2px solid wheat; */
+            width: 410px;
+            display: flex;
+            align-items: center;
+            justify-content:  space-between;
+
+        }
+    }
+    .responsibilites-box{
+        p{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 20px;
+            margin: 10px 0 10px 0;
+
+
+            textarea{
+                height: 50px;
+                color: white;
+            }
+        }
+    }
+    .add-exp{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+
+
+        button{
+            padding: 10px 15px;
+            border: none;
+            outline: none;
+            border-radius: 20px;
+            font-size: 18px;
+            cursor: pointer;
+            color: white;
+            background-color: rgb(0, 50, 100);
+        }
+        .add:hover{
+            color: white;
+            background: linear-gradient(to right, rgb(100, 160, 210), rgb(32, 34, 141));
+        }
+        .cancel{
+            background-color: rgb(150, 0, 20);
+        }
+        .cancel:hover{
+            background-color: rgba(150, 0, 20, .6);
+        }
+    }
+}
+.adding-container div:first-child{
+
+    h1{
+        margin: 0 0 5px 0;
+    }
+}

@@ -1,0 +1,18 @@
+body{
+  font-family: monospace;
+  font-size: 18px;
+  background-color: black;
+  color: white;
+  /* background-color: rgb(10, 30, 50); */
+  /* background: linear-gradient(to bottom, rgb(7, 18, 27), rgb(10, 12, 10));
+  color: white; */
+
+  /* background: rgb(200, 200, 200);
+  color: black; */
+
+  /* background: linear-gradient(to bottom, black,  rgb(70, 70, 70)); */
+  /* background: linear-gradient(to bottom, rgb(0, 0, 0), rgb(100, 100, 100)); */
+  /* background: url("./sky-with-stars.png") no-repeat center center / cover; */
+  /* color: black; */
+}
+

@@ -10,3 +10,14 @@ Currently, two official plugins are available:
 ## Expanding the ESLint configuration
 
 If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+
+# Cloning
+When you clone the repository and are ready to run the application, you must (Note: All these commands should be done in the terminal.):
+1. Change your present working directory to be in the one for the cloned project.
+     You can do this using the change directory (cd) command, it will look like this: "cd ResumerBuilderCloned"
+2. download the dependencies for the project
+     So run this command in the PowerShell: "npm run dev", then
+3. download the fontawesome pins,
+     To do this, run this command in the PowerShell also: "npm install --save @fortawesome/fontawesome-svg-core @fortawesome/react-fontawesome @fortawesome/free-solid-svg-icons @fortawesome/free-brands-svg-icons"
+
+
